@@ -6,11 +6,6 @@
 }
 body{
     font-family: 'Trebuchet MS';
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 50px;
-    background-color: rgb(196, 196, 196);
-    width: 1300px;
 }
 #websiteContainer{
     padding-left: 0;
