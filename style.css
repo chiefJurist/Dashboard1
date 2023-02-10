@@ -90,6 +90,7 @@ body{
     display: flex;
     width: 150px;
     margin-top: 45px;
+    color: black;
 }
 #coursesIcon, #assignmentIcon, #tasksIcon, #messagesIcon, #friendsIcon, #settingsIcon, #logOutIcon{
     flex-basis: 40px;
@@ -174,6 +175,7 @@ body{
 }
 #messageButton{
     padding-top: 7px;
+    color: black;
 }
 #userEmoji{
     background-color: lightskyblue;
@@ -413,6 +415,9 @@ body{
     height: 250px;
     padding-top: 60px;
 }
+#tutorialFour a{
+    color: grey;
+}
 #tutorialSum1, #tutorialSum2, #tutorialSum3{
     background-color: white;
     width: 150px;
@@ -480,6 +485,9 @@ progress{
     color: blue;
     font-family: sans-serif;
     flex-basis: 50px;
+}
+#seeAll a{
+    color: blue;
 }
 #courseView{
     flex-basis: 230px;
@@ -647,6 +655,9 @@ progress{
     padding: 10px;
     border-radius: 5px;
 }
+.timetableContainer a{
+    color: black;
+}
 .courseTitle{
     color: rgb(48, 48, 48);
     font-weight: 800;
@@ -660,4 +671,9 @@ progress{
 }
 #timetableContainer2{
     margin-top: 5px;
+}
+
+/*FOR DIVS I EMBEDED IN A LINK*/
+a{
+    text-decoration: none;
 }
