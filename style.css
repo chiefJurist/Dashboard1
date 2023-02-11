@@ -21,7 +21,7 @@ body{
 /*LEFT SIDE*/
 #leftSide{
     background-color: white;
-    width: 200px;
+    flex-basis: 15%;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 25px;
@@ -134,7 +134,7 @@ body{
 
 /*RIGHT SIDE*/
 #rightSide{
-    width: 1000px;
+    flex-basis: 83%;
 }
 
 
@@ -146,7 +146,6 @@ body{
     justify-content: space-between;
     padding: 20px;
     border-radius: 5px;
-    width: 980px;
 }
 #searchButton{
     background-color: whitesmoke;
@@ -193,7 +192,7 @@ body{
 #analysisContainer{
     display: flex;
     text-align: center;
-    flex-basis: 650px;
+    flex-basis: 70%;
     height: 160px;
     justify-content: space-between;
     background-color: white;
@@ -323,11 +322,10 @@ body{
 
 /*SECOND RIGHT DIV (CALENDER CONTAINER)*/
 #calenderContainer{
-    flex-basis: 300px;
+    flex-basis: 27%;
     background-color: white;
     padding: 10px;
     border-radius: 5px;
-    margin-right: 20px;
     height: 130px;
 }
 #yearDiv{
@@ -390,7 +388,7 @@ body{
 }
 #tutorials{
     display: flex;
-    flex-basis: 650px;
+    flex-basis: 70%;
     justify-content: space-between;
     text-align: center;
 }
@@ -463,8 +461,7 @@ progress{
 /*THIRD RIGHT DIV (COURSES CONTAINER)*/
 #savedCoursesContainer{
     background-color: white;
-    width: 300px;
-    margin-right: 20px;
+    flex-basis: 27%;
     margin-top: -30px;
     padding: 25px;
     padding-bottom: 5px;
@@ -532,7 +529,7 @@ progress{
     justify-content: space-between;
 }
 #leftFourthRightDiv{
-    width: 650px;
+    flex-basis: 70%;
     background-color: white;
     padding: 25px;
     padding-bottom: 0;
@@ -623,8 +620,7 @@ progress{
 
 /*RIGHT SIDE OF THE FOURTH DIV*/
 #rightFourthRightDiv{
-    width: 300px;
-    margin-right: 20px;
+    flex-basis: 27%;
     margin-top: 10px;
 }
 .generalTimetableContainer{
